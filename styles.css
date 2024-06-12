@@ -1,0 +1,75 @@
+header{
+    background-image: url(images/rayos.gif);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.header_img{
+
+    width: 400px;
+    height: 400px;
+}
+
+.header_titulo{
+
+    flex-wrap: wrap;
+    color: #e6d36b;
+    font-size: 55px;
+    font-weight: bold;
+    font: helvetica, arial, sans-serif;
+
+}
+
+
+.navbar{
+    height: 200px;
+    width: auto;
+    color: aqua;
+    height: 50px;
+}
+
+.ulnav{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+
+.ulnav li{
+    list-style: none;
+    margin : 10px;
+    font-weight: bold;
+
+}
+
+
+.my-button {
+    
+    color: rgb(94, 99, 54);
+    font-size: 25px;
+    border-radius:5px;
+    cursor:pointer;
+    background-color: #7e6e18;
+    border: none;
+    height: 80px;
+    width: 300px;
+    font-weight:500;
+    border-style: solid;
+    font:var()
+}
+
+.gwendolyn-regular {
+    font-family: "Gwendolyn", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.gwendolyn-bold {
+    font-family: "Gwendolyn", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
