@@ -20,8 +20,6 @@ header{
 }
 
 .header_titulo{
-
-    flex-wrap: wrap;
     color: #e6d36b;
     font-size: 55px;
     font-weight: bold;
@@ -40,13 +38,13 @@ header{
 .ulnav{
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
 }
 
 .ulnav li{
     list-style: none;
     margin : 0px;
     font-weight: bold;
+    flex-wrap: wrap;
 
 }
 
@@ -65,7 +63,7 @@ header{
 }
 
 .my-button:hover {
-    background-color: #7e6e18;
+    background-color: #222baa;
 }
 
 .container{
@@ -74,6 +72,7 @@ header{
     padding-bottom: 20px;
     color: #e6d36b;
     text-decoration: underline;
+    flex-wrap: wrap;
 }
 
 
@@ -81,12 +80,14 @@ header{
     font: 22px arial, helvetica;
     color: rgb(94, 99, 54);
     padding: 1px;
+    flex-wrap: wrap;
 }
 
 .primer_seccion{
     display: flex;
     justify-content: center;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 .primer_articulo{
@@ -95,8 +96,9 @@ header{
 
 aside{
     flex: 1;
-    background-color: rgb(131, 150, 231);
-    margin-top: 20px;
+    background-color:  #666a9e;
+    margin-top: 10px;
+    text-align: center;
 }
 
 .ranking{
@@ -104,7 +106,13 @@ aside{
     justify-content: center;
     flex-wrap: wrap;
     flex-grow: 2;
+    text-decoration: underline;
+    background-color: antiquewhite;
+}
 
+.sig_50{
+    list-style: none;
+    padding-top: 10px;
 }
 
 
@@ -113,8 +121,9 @@ aside{
     color: rgb(94, 99, 54);
 }
 
-ul.ranking{
-    list-style:decimal;
+.ul_ranking{
+    list-style: decimal;
+
 }
 
 .footer{
