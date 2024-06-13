@@ -79,8 +79,35 @@ header{
 .titulo_principal{
     font: 22px arial, helvetica;
     color: rgb(94, 99, 54);
-    padding: 1px;
+    padding-top: 10px;
     flex-wrap: wrap;
+
+}
+
+.div_redes{
+    display:grid;
+    height: 400px;
+    width: 120px;
+    background-color: rgb(134, 111, 196);
+    margin-top: 100px;
+    justify-content: space-between;
+
+}
+
+.titu_redes{
+    font: 15px verdana;
+    color: rgb(17, 19, 1);
+    font-weight: 550;
+
+    text-decoration: underline;
+
+}
+
+.ico{
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+
 }
 
 .primer_seccion{
@@ -96,8 +123,8 @@ header{
 
 aside{
     flex: 1;
-    background-color:  #666a9e;
-    margin-top: 10px;
+    background-color:  rgb(134, 111, 196);
+    margin-top: 50px;
     text-align: center;
 }
 
